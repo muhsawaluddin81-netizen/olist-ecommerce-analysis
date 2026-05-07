@@ -107,7 +107,7 @@ Olist menunjukkan pertumbuhan bisnis yang sehat dengan volume transaksi tumbuh 8
 ---
 
 ## 📸 Dashboard Preview
-<img width="1398" height="751" alt="Screenshot 2026-05-07 193528" src="https://github.com/user-attachments/assets/51f89b76-1d06-4067-a29d-b1a6281109b0" />
+![Dashboard Preview](assets/dashboard_preview.png)
 
 --- 
 
