@@ -1,6 +1,6 @@
 # Olist E-Commerce Performance Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes the business performance of **Olist**, a Brazilian e-commerce platform, using a public dataset from Kaggle. The analysis covers **7 business questions** across four key dimensions sales, product performance, logistics, and customer satisfaction to generate actionable insights for business decision making.
 
 **Tools Used:** PostgreSQL · Power BI  
@@ -9,7 +9,7 @@ This project analyzes the business performance of **Olist**, a Brazilian e-comme
 
 ---
 
-## 🗂️ Dataset Schema
+## Dataset Schema
 The dataset consists of 9 interrelated tables connected through a relational schema with `olist_orders` as the central table.
 
 ```
@@ -27,7 +27,7 @@ olist_customers → olist_geolocation → via customer_zip_code_prefix
 
 ---
 
-## ❓ Business Questions
+## Business Questions
 
 | No | Business Question |
 |---|---|
@@ -41,7 +41,7 @@ olist_customers → olist_geolocation → via customer_zip_code_prefix
 
 ---
 
-## 🔧 Workflow
+## Workflow
 
 ```
 📥 Download Dataset (Kaggle)
@@ -62,7 +62,7 @@ olist_customers → olist_geolocation → via customer_zip_code_prefix
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 ### 1. Rata-rata Transaksi per Kota
 - **Tertinggi:** Campina Grande (281.28 reais) dari kota-kota dengan min. 50 transaksi
@@ -93,7 +93,7 @@ olist_customers → olist_geolocation → via customer_zip_code_prefix
 ### 6. Korelasi Keterlambatan & Review Negatif
 - **54.01%** customer yang mengalami keterlambatan memberikan review negatif
 - Hanya **9.23%** dari customer yang menerima pesanan tepat waktu memberikan review negatif
-- ⚠️ *Keterlambatan pengiriman terbukti berkorelasi kuat dengan ketidakpuasan pelanggan*
+- *Keterlambatan pengiriman terbukti berkorelasi kuat dengan ketidakpuasan pelanggan*
 
 ### 7. Tren Volume Transaksi (Jan 2017 — Aug 2018)
 - Volume transaksi tumbuh **8x lipat** dalam 20 bulan (800 → 6,512 transaksi/bulan)
@@ -101,22 +101,22 @@ olist_customers → olist_geolocation → via customer_zip_code_prefix
 
 ---
 
-## 💡 Business Insight
+## Business Insight
 Olist menunjukkan pertumbuhan bisnis yang sehat dengan volume transaksi tumbuh 8x lipat dalam 20 bulan, didukung oleh mayoritas customer (77.07%) yang memberikan review positif. Namun, performa logistik menjadi perhatian utama  keterlambatan pengiriman terbukti berkorelasi kuat dengan review negatif, dimana 54% customer yang mengalami keterlambatan memberikan penilaian buruk. Prioritas perbaikan utama terletak pada optimalisasi jaringan distribusi dan kemitraan kurir, terutama di daerah-daerah dengan rata-rata durasi pengiriman tinggi.
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 ![Dashboard Preview](assets/dashboard_preview.png)
 
 --- 
 
-## 🛠️ SQL Techniques Used
+## SQL Techniques Used
 `JOIN` · `GROUP BY` · `HAVING` · `WHERE` · `CASE WHEN` · `DATE_PART` · `TO_CHAR` · `ROUND` · `AVG` · `COUNT` · `SUM OVER()` · `UNION ALL` · `Subquery` · `SERIAL PRIMARY KEY` · `Composite Primary Key`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 olist-ecommerce-analysis/
 ├── sql/
