@@ -1,11 +1,11 @@
-# 🛒 Olist E-Commerce Performance Analysis
+# Olist E-Commerce Performance Analysis
 
 ## 📌 Project Overview
 This project analyzes the business performance of **Olist**, a Brazilian e-commerce platform, using a public dataset from Kaggle. The analysis covers **7 business questions** across four key dimensions sales, product performance, logistics, and customer satisfaction to generate actionable insights for business decision making.
 
 **Tools Used:** PostgreSQL · Power BI  
 **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
-**Total Tables:** 9 relational tables · ~100K orders
+**Total Tables:** 9 relational tables · 100K orders
 
 ---
 
@@ -77,7 +77,7 @@ olist_customers → olist_geolocation → via customer_zip_code_prefix
 | Sports Leisure | 8,641 | CDs DVDs Musicals | 14 |
 
 ### 3. Distribusi Produk Terlaris per Kota
-- **São Paulo** mendominasi penjualan Bed Bath Table dengan **1,984 item** — lebih dari 2x lipat kota kedua (Rio de Janeiro, 854 item)
+- **São Paulo** mendominasi penjualan Bed Bath Table dengan **1,984 item** lebih dari 2x lipat kota kedua (Rio de Janeiro, 854 item)
 
 ### 4. Durasi Pengiriman per Kota
 - **Tercepat:** Biritiba Mirim — rata-rata **3.20 hari**
@@ -97,7 +97,7 @@ olist_customers → olist_geolocation → via customer_zip_code_prefix
 
 ### 7. Tren Volume Transaksi (Jan 2017 — Aug 2018)
 - Volume transaksi tumbuh **8x lipat** dalam 20 bulan (800 → 6,512 transaksi/bulan)
-- Puncak tertinggi: **November 2017 (7,544 transaksi)** — bertepatan dengan **Black Friday**
+- Puncak tertinggi: **November 2017 (7,544 transaksi)** bertepatan dengan **Black Friday**
 
 ---
 
